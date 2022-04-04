@@ -15,4 +15,11 @@ def lambda_function(n):
 g= lambda_function(5)#this pass the value to the function lambda_function
 print("This final value of lambda function:",g(5))#this pass the value to the lambda function
 
+#python lambda with list comprehension
+lambda_list= [lambda h=h: h+2 for h in range (1,5)]
+for i in lambda_list:
+    print(i())
 
+#python lambda function with if-else
+minimum= lambda j,k: j if (j<k)else k
+print("the minimum number from if else lambda is", minimum(3,4))    
