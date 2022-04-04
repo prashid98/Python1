@@ -8,3 +8,9 @@ stack.append("element3")
 
 #printing the element of stack
 print(stack)
+
+#poping out the element of stack
+print(stack.pop())
+
+#stack after poping out
+print(stack)
