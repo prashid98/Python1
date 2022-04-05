@@ -25,3 +25,6 @@ for x in range(0,11):
         new_list.append(x)
 print("This are the list of odd number less than 10",new_list)
 
+#joining different list as one
+sim_list.extend(new_list)
+print(sim_list)
