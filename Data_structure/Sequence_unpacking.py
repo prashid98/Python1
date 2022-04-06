@@ -1,9 +1,4 @@
 #For unpacking we need to have same number of item as in the list
-from msvcrt import kbhit
-from random import sample
-from re import L
-
-
 a,b,c= [4,5,6]
 print("value of a:",a)
 print("value of b:",b)
