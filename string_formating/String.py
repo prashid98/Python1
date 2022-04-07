@@ -8,4 +8,4 @@ print("My location is: %d %s, %s" %(zip_add,city,country))
 print("Hello {name}, Welcome to {company} ".format(company= "cotiviti", name="Prashid Kafle"))
 
 #string operation using f-string 
-
+print(f"My country name is {country}")
