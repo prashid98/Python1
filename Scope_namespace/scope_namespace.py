@@ -9,6 +9,6 @@ def sum():
     b=3
     c= b+a
     print("the sum of global and local variable is:",c)
-    #print the locals used in this class
+    #print the locals used in this function
     print(locals())
 sum()
