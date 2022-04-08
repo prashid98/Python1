@@ -10,3 +10,6 @@ y = re.search("i", txt)
 
 print("The first i character is located in position:", y.start())
 
+#replace the white space with _
+z = re.sub("\s", "_", txt)
+print(z)
