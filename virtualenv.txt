@@ -1,0 +1,3 @@
+Virtual environment in python is created by
+py -m venv env
+
